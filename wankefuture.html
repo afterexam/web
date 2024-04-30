@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="碧桂园" content="碧桂园" />
+    <title>碧桂园</title>
+    <script src="js\echarts.min.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="css\custom.css" />
+    <style>
+         body{
+            background-color:#041e58;
+
+         }
+
+        .box{
+            background-color: white;
+           display: flex; 
+           height: 75px;
+           color: #041e58;
+           
+           margin-bottom: 35px;
+           
+           
+        }
+
+        #mingzi{
+            color: black;
+            font-size: 25px;
+            font-family: "微软雅黑 Light";
+            display: flex;
+            align-items: center;
+            position: absolute;
+            right: 0;
+            letter-spacing: 3px;
+            top:2%
+        }
+
+        #biaoti{
+            color: #0E94DC;
+            font-size: 65px;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            top: 4%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            letter-spacing: 3px;
+        }
+
+        .zhuti{
+            
+            height:900px;
+            
+            
+        }
+
+        .shuju{
+            background-color: white;
+            height: 800px; 
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 20px;
+            border-radius: 2ch;
+            border: 2px,dashed,gray;
+            
+        }
+
+        .shuju2{
+            background-color: white;
+            height: 800px; 
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 20px;
+            display: flex;
+            border-radius: 2ch;
+            border: 2px,dashed,gray;
+        }
+        .zhuyaofaburen{
+            flex:45;
+
+        }
+        .qingganqushi{
+            flex:55;
+        }
+
+
+    </style>
+
+    <body>
+    <div class="box">
+        <div class="nav-inner">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img\屏幕截图 2024-03-13 090630.png"  alt="Logo"   >
+                     
+                  
+                </a>
+            </nav>
+        </div>
+        <h1 id="mingzi">首页->看未来->碧桂园</h1>
+
+    </div>
+    <div class="zhuti">
+       
+
+        <div class="shuju2">
+
+            <div class="zhuyaofaburen">
+                <div class="zuoshangbiaoti">
+                    <h2>温馨提示</h2>
+                </div>
+                <div class="wenxintishi">
+                    <div class="gys">
+                        <div class="wori"><h3 class="ang">汉嘉设计集团股份有限公司</h3><p class="lang1">维持现有贷款政策，但加强风险监测和评估，确保信贷组合的稳健性。</p></div>
+                        <div class="wori"><h3 class="ang">深圳市华阳国际工程设计股份有限公司</h3><p class="lang1">略微提高贷款门槛，重点关注企业的现金流状况，避免过度扩张的企业获得贷款。</p></div>
+                            <div class="wori"><h3 class="ang">科顺防水科技股份有限公司</h3><p class="lang1">适度增加抵押或担保要求，减少对高风险行业的贷款，优化信贷组合结构。</p></div>
+                                <div class="wori"><h3 class="ang">重庆建工集团股份有限公司</h3><p class="lang2">调整贷款定价策略，提高利率以反映更高的风险，同时加大对中小企业的支持</p></div>
+                                    <div class="wori"><h3 class="ang">江苏华辰变压器股份有限公司</h3><p class="lang2">调整贷款定价策略，提高利率以反映更高的风险，同时加大对中小企业的支持</p></div>
+                                        <div class="wori"><h3 class="ang">中化岩土集团股份有限公司</h3><p class="lang2">调整贷款定价策略，提高利率以反映更高的风险，同时加大对中小企业的支持</p></div>
+                                            <div class="wori"> <h3 class="ang">广东顶固集创家居股份有限公司</h3><p class="lang2">调整贷款定价策略，提高利率以反映更高的风险，同时加大对中小企业的支持</p></div>
+                                                <div class="wori"><h3 class="ang">中建建工建设有限公司
+                                                </h3><p class="lang2">无</p></div>
+                                                <div class="wori"><h3 class="ang">昇辉智能科技股份有限公司</h3><p class="lang2">无</p></div>
+                                                <div class="wori"><h3 class="ang">广州市顺路管理咨询股份有限公司</h3><p class="lang2">无</p></div>
+                                                <div class="wori"><h3 class="ang">中大建设股份有限公司</h3><p class="lang2">无</p></div>
+                                                <div class="wori"><h3 class="ang">中天建设集团有限公司</h3><p class="lang2">无</p></div>
+                                                <div class="wori"><h3 class="ang">广州市顺路管理咨询股份有限公司</h3><p class="lang2">无</p></div>
+                                                <div class="wori"><h3 class="ang">辽宁易林建设科技集团股份有限公司</h3><p class="lang2">无</p></div>
+                                                <div class="wori"><h3 class="ang">湖北乐游游文旅股份有限公司</h3><p class="lang2">无</p></div>
+    
+                                                <div class="wori"><h3 class="ang">大成科创建设集团股份有限公司</h3><p class="lang2">无</p></div>
+                                                <div class="wori"><h3 class="ang">肇庆市现代筑美家居有限公司</h3><p class="lang2">无</p></div>
+                                                <div class="wori"><h3 class="ang">广东博意建筑设计院有限公司</h3><p class="lang2">无</p></div>
+    
+                        
+                    </div>
+
+                </div>
+
+            </div>
+           
+            <div class="qingganqushi">
+                <div class="zuoshangbiaoti">
+                    <h2>预测图表</h2>
+                </div>
+                <div id="qingganqushitu">
+                    <script>
+                        var chartDom = document.getElementById('qingganqushitu');
+var myChart = echarts.init(chartDom);
+var option;
+
+option = {
+  title: {
+    text: '深圳世联行集团股份有限公司'
+  },
+  tooltip: {
+    trigger: 'axis'
+  },
+  legend: {
+    data: ['应收账款','销售净利率','存货周转率']
+  },
+  grid: {
+    left: '3%',
+    right: '4%',
+    bottom: '3%',
+    containLabel: true
+  },
+  toolbox: {
+    feature: {
+      saveAsImage: {}
+    }
+  },
+  xAxis: {
+    type: 'category',
+    boundaryGap: false,
+    data: [  "2019年第1季度", "2019年第2季度", "2019年第3季度", "2019年第4季度",
+    "2020年第1季度", "2020年第2季度", "2020年第3季度", "2020年第4季度",
+    "2021年第1季度", "2021年第2季度", "2021年第3季度", "2021年第4季度",
+    "2022年第1季度", "2022年第2季度", "2022年第3季度", "2022年第4季度",
+    "2023年第1季度", "2023年第2季度", "2023年第3季度", "2023年第4季度",
+    "2024年第1季度", "2024年第2季度", "2024年第3季度", "2024年第4季度",
+     "2025年第1季度", "2025年第2季度", "2025年第3季度", "2025年第4季度",]
+  },
+  yAxis: [{
+    type: 'value',
+    name:"应收账款"
+  },
+    {
+        type:'value',
+        name:"销售净利率&存货周转率",
+    }]
+  ,
+  series: [
+    {
+      name: '应收账款',
+      type: 'line',
+      stack: 'Total',
+      data: [  149.8026, 401.0283, 620.2413,  55.5056,  12.2283,  28.5758,
+         50.2546,  72.0026,   4.7925,  22.5672,  36.2808,  48.1086,
+          6.6064,  27.256 ,  36.2808,  48.1086,  13.4638,  34.0901,
+         50.5186,  68.9256,   9.0809,  18.6485,  25.6292,   0.    ,
+          0.  ]
+    },
+    {
+        name:'销售净利率',
+        type: 'line',
+      stack: 'Total',
+      data:[-6.9957,   24.7806,   21.7104,  -19.8861,   -5.8126,  -10.7335,
+         -11.4283, -114.039 ,  -41.2132,   23.9451,   10.527 ,   16.1794,
+           6.5703,    3.6434,   10.527 ,   16.1794,   -1.1121,   -7.157 ,
+          -5.3092,   -3.5375,    1.9458,    3.6677,    3.9822,    0.    ,
+           0. ],
+
+        yAxisIndex: 1,
+
+    },
+    {
+            name:'存货周转率',
+            type: 'line',
+      stack: 'Total',
+      yAxisIndex: 1,
+
+      data:[ 7.7962,  22.8359,  39.773 , 213.7258,  54.4622, 128.1864,
+        233.4762, 353.6042,  71.1514, 239.4648, 415.6614, 671.6696,
+        179.0652, 407.7484, 415.6614, 671.6696,   6.02  ,  11.3642,
+         17.3826,  21.4588,   4.8706,   9.8674,  15.129 ,   0.    ,
+          0.  ]
+
+    }
+    
+  ]
+};
+
+option && myChart.setOption(option);
+
+                    </script>
+
+                </div>
+                <h3 class="eee">存货周转率波动减少，销售净利率波动下降，企业市场需求下降，企业健康状态较差</h3>
+
+            </div>
+
+        </div>
+        
+
+
+        </div>
+
+        
+    </div>
+    
+    
+
+    <footer class="footer style2">
+        <!-- Start Middle Top -->
+          <!-- Start Middle Top -->
+          <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="f-about single-footer">
+                            <div class="logo">
+                                <img src="img\屏幕截图 2024-03-13 090630.png"  alt="Logo"   ></a>
+                            </div>
+                            
+                            <div class="footer-social">
+                                <ul>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-facebook-original"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-google"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- End Single Widget -->
+                    
+                    
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-12" id="lll">
+                        <!-- Single Widget -->
+                        <div class="f-about single-footer">
+                            
+                            <a class="fawulianjie" href="img\法律声明.docx">一、本网站的内容由礁石科技有限公司提供，受中国知识产权法及相关法律保护。 除法律另有规定或者礁石科技有限公司与有关当事人另有约定外，本网站提供的所有内容（包括但不限于市场数据、风险分析等）、文本、图片、设计、标识以及相关软件程序的知识产权均归属礁石科技有限公司，依法受法律保护。</a>
+                            <a class="fawulianjie" href="img\法律声明.docx">二、任何机构或者个人使用本网站，均应遵守中国有关法律与本声明，不得破坏本网站运行安全，不得利用本网站进行任何违法活动，不得损害礁石科技有限公司的合法权益。</a>
+                            <a class="fawulianjie" href="img\法律声明.docx">三、在遵守中国法律与本声明的前提下，任何机构或者个人可基于非商业目的浏览、下载本网站内容。 未经礁石科技有限公司书面授权，任何机构或者个人不得以牟利为目的使用本网站的任何内容，此种使用包括但不限于转载、复制、散布、修改、销售、出版、演示、传播、通过硬拷贝或电子抓取系统获取网站信息或以其它任何形式获取、散发信息并从中牟利，该类使用行为视为侵权。</a>
+
+                        </div>
+                        <!-- End Single Widget -->
+                    
+                    
+                    </div>
+                    
+                    
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Middle -->
+        <!--/ End Footer Middle -->
+        <!-- Start Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="left">
+                              <div class="button">
+                                <a href="wankehistory.html" class="btn1">前往听历史</a>
+                                <a href="course-future.html" class="btn1">回到主页</a>
+                                <a href="wangke.html" class="btn1">前往感时势</a>
+
+                            </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Middle -->
+    </footer>
+    <!--/ End Footer Area -->
+
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top btn-hover">
+        <i class="lni lni-chevron-up"></i>
+    </a>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/count-up.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+    
+
+</html>

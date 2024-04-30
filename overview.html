@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>智策方舟</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- 网站字体资源 -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="css\custom.css" />
+    <link rel="stylesheet" href="assets/css/overview.css" />
+
+</head>
+
+<body>
+    <!--header-->
+    <header class="header navbar-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="nav-inner">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="img\web-icon.png"  alt="Logo">
+                            </a>
+                            <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a class="page-scroll dd-menu collapsed" href="./index.html" id="index"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-1-1"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                            aria-label="Toggle navigation">主页</a>
+                                        
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll active dd-menu collapsed" href="javascript:void(0)"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-1-2"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                            aria-label="Toggle navigation">总体分析</a>
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a class="page-scroll dd-menu collapsed" href="javascript:void(0)"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-1-4"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                            aria-label="Toggle navigation">我的账户</a>
+                                        <ul class="sub-menu collapse" id="submenu-1-4">
+                                            <li class="nav-item"><a href="./membership.html">会员</a></li>
+                                            <li class="nav-item"><a href="">关注列表</a></li>
+                                        </ul>
+                                    </li>
+                                    <!--
+                                    <div class="button wow fadeInUp" data-wow-delay=".9s">
+                                        <a href="" class="btn">注册</a>
+                                        <a href="" class="btn alt-btn">登录</a>
+                                    </div>
+                                    -->
+                                    <div id="breadcrumb">
+                                        <a href="./registration.html" class="login">注册</a>
+                                        <p>&nbsp;|&nbsp;</p>
+                                        <a href="./login.html" class="sign">登录</a>
+                                    </div>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav> <!-- navbar -->
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </header>
+    <main>
+        <div class="main">
+            <div class="climate" id="climate">
+
+            </div>
+            <div class="rose" id="rose">
+
+            </div>
+            <div class="geo">
+
+            </div>
+            <div class="ranking" id="ranking">
+
+            </div>
+        </div>
+        <div class="side-bar">
+    
+        </div>
+    </main>
+</body>
+<script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/count-up.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/axios.min.js"></script>
+    <script src="assets/js/overview.js"></script>
+    <script src="./node_modules/echarts/dist/echarts.min.js"></script>
+    <script type="text/javascript">
+        //导航
+        let indexEle = document.getElementById("index");
+        index.onclick = function(){
+            window.location.href = "./index.html";
+        }
+    </script>
+</html>

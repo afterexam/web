@@ -1,0 +1,149 @@
+/************************************************************/
+/*head area*/
+#nav{
+    position: relative;
+    left: 10%;
+    bottom: 1%;
+}
+/*login and sign up area*/
+#nav .button{
+    margin-top: 85px;
+    transform: translateY(-120%) translateX(50%);
+}
+
+/*breadcrumb area (for sign up and login in)*/
+#nav #breadcrumb{
+    padding: 20px;
+    height: auto;
+    position: fixed;
+    top: 0%;
+    left: 100%;
+    transform: translateX(-100%) translateY(1%);
+    display: flex;
+}
+#nav #breadcrumb a{
+    display: inline;
+    width: 50px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    padding: 30px 0;
+}
+#nav #breadcrumb a:hover{
+    color: rgb(14, 148, 220)
+}
+#nav #breadcrumb p{
+    display: inline;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #333;
+    padding: 30px 0;
+}
+
+/************************************************************/
+/*top area*/
+/*search button*/
+.search-container{
+    height: 40px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.search{
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+}
+.search-icon{
+    width: auto;
+    height: 100%;
+    transform: scale(0.8) translateX(-120%);
+    position: absolute;
+    cursor: pointer;
+}
+/*background size*/
+.hero-inner{
+    height: 650px !important;
+}
+.background-image{
+    opacity: 90%;
+}
+/***********************************************************/
+/*feature area*/
+.features .single-feature{
+    margin: 60px 0px 0px 60px !important;
+    padding: 0px 60px 0px 0px !important;
+}
+.features .my-image{
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    transform: translateX(-120%) translateY(-25%);
+    padding: 20px;
+}
+.features p{
+    width: 65%;
+}
+/*advantages area*/
+.courses .single-head .row{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    padding-bottom: 28px;
+}
+.courses .single-head .row:hover{
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+.courses .single-head .row::-webkit-scrollbar{
+    height: 8px; 
+}
+.courses .single-head .row::-webkit-scrollbar-thumb{
+    background: gray;
+    border-radius: 5px;
+}
+.courses .single-head .row::-webkit-scrollbar-thumb:hover{
+    box-shadow: 8px 0 0 gray inset;
+}
+.courses .single-head .row::-webkit-scrollbar-track{
+    border-radius: 5px;
+}
+.single-head .advantage-card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 26px 40px -24px rgb(0 36 100 / 50%);
+}
+/*footer area*/
+.footer{
+    margin-top: 0px !important;
+}
+.footer .footer-middle{
+    padding-bottom: 60px !important;
+    padding-top: 60px !important;
+}
+.footer .footer-bottom{
+    padding: 0px !important;
+}
+.footer .footer-social{
+    margin-top: 0px !important;
+}
+.footer .logo{
+    margin-bottom: 0px !important;
+}
+.footer .footer-social li{
+    padding: 15px 12px;
+    transform: translateX(-50%);
+}
+.footer .load-more{
+    float: right;
+    
+}
+.footer .load-more .fawulianjie{
+    font-size: 13px;
+}

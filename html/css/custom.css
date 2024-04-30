@@ -1,0 +1,11 @@
+
+
+  .my-image {
+    float: right;
+    font-size: 70px;
+
+  }
+.mycontainer {
+    display: flex;
+    align-items: center; /* 在交叉轴上居中对齐 */
+  }

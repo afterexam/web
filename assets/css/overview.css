@@ -1,0 +1,80 @@
+/************************************************************/
+/*head area*/
+#nav{
+    position: relative;
+    left: 10%;
+    bottom: 1%;
+}
+/*login and sign up area*/
+#nav .button{
+    margin-top: 85px;
+    transform: translateY(-120%) translateX(50%);
+}
+
+/*breadcrumb area (for sign up and login in)*/
+#nav #breadcrumb{
+    padding: 20px;
+    height: auto;
+    position: fixed;
+    top: 0%;
+    left: 100%;
+    transform: translateX(-100%) translateY(1%);
+    display: flex;
+}
+#nav #breadcrumb a{
+    display: inline;
+    width: 50px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    padding: 30px 0;
+}
+#nav #breadcrumb a:hover{
+    color: rgb(14, 148, 220)
+}
+#nav #breadcrumb p{
+    display: inline;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #333;
+    padding: 30px 0;
+}
+/*main area*/
+main{
+    background-color: #041e58;
+}
+.main{
+    width: 70%;
+    display: grid;
+    grid-template-rows: 430px 410px;
+    grid-template-columns: 55% 45%;
+    grid-template-areas: "climate geo"
+                         "rose ranking";
+}
+.main .climate{
+    grid-area: climate;
+    margin-left: 50px;
+    margin-top: 40px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+.main .geo{
+    grid-area: geo;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 25px;
+    background-color: whitesmoke;
+}
+.main .rose{
+    grid-area: rose;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.main .ranking{
+    grid-area: ranking;
+}

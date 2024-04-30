@@ -1,0 +1,629 @@
+
+
+  .my-image {
+    float: right;
+    font-size: 70px;
+
+  }
+.mycontainer {
+    display: flex;
+    align-items: center; /* 在交叉轴上居中对齐 */
+  }
+
+  .mytext {
+  
+    float: right;
+    font-size: 70px;
+  }
+  .dabox{
+    display: flex;
+    width: 100%;  
+  }
+  .zhu {
+    padding-top: 5px;
+    width: 80%;
+    height: 794.33px;
+    border-color:#2F5DF2;
+    border-right: 1px solid rgb(156, 156, 156);
+    position: relative;
+    background-image: linear-gradient(to right, #00eeff, #ffffff);
+    
+}
+.soousuo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2ff2f2;
+  border-radius: 1ch;
+  width: 400px;
+  height: 180px;
+  transition: transform 0.3s ease;
+  transform-origin: bottom right;
+}
+.soousuo:hover {
+  transform: scale(1.1) translate(-50%, -50%); /* 悬停时放大到原尺寸的 1.2 倍 */
+}
+
+.sousuobiaoti{
+  text-align:center;
+  font-size: 40px;
+}
+
+.button1 {
+  width:65px;
+  height:50px;
+  display: inline-block;
+  position: relative;
+  
+  padding: 11px 11px;
+  background-color: rgb(0, 183, 255);
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  
+}
+.button1:hover {
+  transform: scale(1.1); /* 悬停时放大到原尺寸的 1.2 倍 */
+}
+
+/* 菜单样式 */
+.paihangbang {
+  border-radius: 2px;
+  border: 2px solid #2F5DF2;
+  
+  display: flex;
+  width: 20%;
+  height: 311px;
+  background-color: #2F5DF2;
+}
+
+.xiaobiaoti{
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  float: left;
+  padding-bottom: 35px;
+  position: relative;
+  
+}
+
+.num1{
+  position: relative;
+  line-height: 50px;
+  
+  font-size: 20px;
+  color: rgb(235, 96, 16) !important;
+  transition: transform 0.3s ease;
+  transform-origin: bottom left;
+}
+.num1:hover {
+  transform: scale(1.05); /* 悬停时放大到原尺寸的 1.2 倍 */
+  color: red;
+}
+
+.num2{
+  transition: transform 0.3s ease;
+  transform-origin: bottom left;
+}
+.num2:hover {
+  transform: scale(1.05); /* 悬停时放大到原尺寸的 1.2 倍 */
+
+}
+
+li{
+  list-style-type: none;
+  line-height: 25px;
+  padding: 20px;
+  
+}
+
+a{
+  font-size: large;
+  color:gray;
+  
+}
+
+a:hover{
+  color:black;
+}
+
+.zuoshangbiaoti{
+  width: 125px;
+  background-color: bisque;
+  border-radius: 2ch;
+  text-align: center;
+  transition: transform 0.3s ease;
+  transform-origin: bottom left;
+  opacity: 0; /* 初始设置为透明 */
+  animation: fadeIn 2s ease-in-out forwards; /* 使用动画效果渐变显示 */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* 动画起始状态 */
+  }
+  to {
+    opacity: 1; /* 动画结束状态 */
+  }
+}
+  
+
+
+.zuoshangbiaoti:hover {
+  transform: scale(1.1); /* 悬停时放大到原尺寸的 1.2 倍 */
+}
+
+h2{
+  font-size: 25px;
+  font-family: "楷体";
+}
+
+.shujuduibi{
+  display: flex;
+  height: 75px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+
+
+.guanzhudu{
+  margin-left: 120px;
+  display: flex;
+  font-size: 40px;
+  align-items: center;
+}
+
+.xihe{
+  margin-left: 250px;
+  opacity: 0; /* 初始设置为透明 */
+  animation: fadeIn 3s ease-in-out forwards; /* 使用动画效果渐变显示 */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* 动画起始状态 */
+  }
+  to {
+    opacity: 1; /* 动画结束状态 */
+  }
+}
+
+
+#fabuqushi{
+  height: 500px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+#qingganqushitu{
+  height: 600px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+
+.zhanshi{
+  margin-top: 85px;
+  margin-left: 85px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  transition: transform 0.3s ease;
+  transform-origin: bottom left;
+
+
+font-size: 20px;
+color: #ffffff;
+
+  opacity: 0; /* 初始设置为透明 */
+  animation: fadeIn 2s ease-in-out forwards; /* 使用动画效果渐变显示 */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* 动画起始状态 */
+  }
+  to {
+    opacity: 1; /* 动画结束状态 */
+  }
+}
+
+.zhanshi:hover {
+  transform: scale(1.2); /* 悬停时放大到原尺寸的 1.2 倍 */
+}
+
+.shuru{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 30px;
+  width:250px;
+  height:50px;
+}
+
+#weilaizouxiang{
+  height: 600px;
+}
+
+.xt{
+  transition: transform 0.3s ease;
+  transform-origin: bottom left;
+}
+.xt:hover {
+  transform: scale(1.2); /* 悬停时放大到原尺寸的 1.2 倍 */
+}
+
+.jiantou{
+  transition: transform 0.3s ease;
+  transform-origin: bottom left;
+}
+.jiantou:hover {
+  transform: scale(1.4); /* 悬停时放大到原尺寸的 1.2 倍 */
+}
+
+.fanhuianniu{
+  height:90px;
+  background-color: white;
+}
+
+.button .btn1 {
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  background-color: #0acff2;
+  color: #fff;
+  border: none;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  border-radius: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.button .btn1::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background-color: #0731b9;
+  content: "";
+  
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  z-index: -1;
+}
+
+.button .btn1:hover::before {
+  width: 100%;
+}
+
+.button .btn1:hover {
+  color: #fff;
+}
+
+.jituanjieshao{
+  display:flex;
+  margin-top: 10px;
+  
+}
+
+.jieshao{
+  flex:60;
+  margin-left: 15px;
+  color: black;
+  font-size: 20px;
+  line-height: 45px;
+  position: relative;
+  padding-top: 50px;
+  opacity: 0; /* 初始设置为透明 */
+  animation: fadeIn 2.5s ease-in-out forwards; /* 使用动画效果渐变显示 */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* 动画起始状态 */
+  }
+  to {
+    opacity: 1; /* 动画结束状态 */
+  }
+}
+
+.jiesahotu{
+  flex:40;
+  border-radius: 2ch;
+ 
+  margin-left: 10px;
+ 
+  
+}
+.jieshaotupian{
+  width:400px;
+  height: 400px;
+  border-radius: 2ch;
+  border: 1px #00eeff solid ;
+  position: absolute;
+  right: 10%;
+  top:30%;
+  opacity: 0; /* 初始设置为透明 */
+  animation: fadeIn 2.5s ease-in-out forwards; /* 使用动画效果渐变显示 */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* 动画起始状态 */
+  }
+  to {
+    opacity: 1; /* 动画结束状态 */
+  }
+}
+  #qingganindex{
+    height:450px
+  }
+
+.faburen{
+  height:350px
+}
+
+.fbr{
+  width:50px;
+  height: 50px;
+  opacity: 0; /* 初始设置为透明 */
+  animation: fadeIn 2.5s ease-in-out forwards;
+  transition: transform 0.3s ease;
+  transform-origin: bottom left;
+}
+.fbr:hover {
+  transform: scale(1.05); /* 悬停时放大到原尺寸的 1.2 倍 */
+} /* 使用动画效果渐变显示 */
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* 动画起始状态 */
+  }
+  to {
+    opacity: 1; /* 动画结束状态 */
+  }
+}
+
+
+.up{
+  font-size: larger;
+  color:black;
+  letter-spacing: 1px;
+  opacity: 0; /* 初始设置为透明 */
+  animation: fadeIn 3s ease-in-out forwards; /* 使用动画效果渐变显示 */
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+  transform-origin: bottom left;
+}
+.up:hover {
+  transform: scale(1.05); /* 悬停时放大到原尺寸的 1.2 倍 */
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* 动画起始状态 */
+  }
+  to {
+    opacity: 1; /* 动画结束状态 */
+  }
+}
+
+
+.fans{
+  font-size: 12px;
+  color: gray;
+  float: right;
+  opacity: 0; /* 初始设置为透明 */
+  animation: fadeIn 3s ease-in-out forwards; /* 使用动画效果渐变显示 */
+  transition: transform 0.3s ease;
+  transform-origin: bottom left;
+}
+.fans:hover {
+  transform: scale(1.05); /* 悬停时放大到原尺寸的 1.2 倍 */
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* 动画起始状态 */
+  }
+  to {
+    opacity: 1; /* 动画结束状态 */
+  }
+}
+
+.gys{
+  line-height: 30px;
+  color: grey;
+  font-size:medium;
+  opacity: 0; /* 初始设置为透明 */
+  animation: fadeIn 2.5s ease-in-out forwards; /* 使用动画效果渐变显示 */
+  transition: transform 0.3s ease;
+  transform-origin: bottom left;
+}
+.fans:hover {
+  transform: scale(1.05); /* 悬停时放大到原尺寸的 1.2 倍 */
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* 动画起始状态 */
+  }
+  to {
+    opacity: 1; /* 动画结束状态 */
+  }
+}
+
+.wori{
+  display: flex;
+  width: 620px;
+  justify-content: space-between;
+  
+}
+
+.ang{
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  line-height: 15px;
+  opacity: 0; /* 初始设置为透明 */
+  animation: fadeIn 2.5s ease-in-out forwards; /* 使用动画效果渐变显示 */
+  transition: transform 0.3s ease;
+  transform-origin: bottom left;
+}
+.ang:hover {
+  transform: scale(1.05); /* 悬停时放大到原尺寸的 1.2 倍 */
+}
+
+.lang1{
+  float: right;
+  margin-top: 5px;
+  line-height: 15px;
+  margin-bottom: 20px;
+  
+  font-size: 12px;
+  color: orange;
+}
+
+.lang2{
+  float: right;
+  margin-top: 5px;
+  line-height: 15px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: blue;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* 动画起始状态 */
+  }
+  to {
+    opacity: 1; /* 动画结束状态 */
+  }
+}
+
+.wenxintishi{
+  height: 750px;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0; /* 初始设置为透明 */
+  animation: fadeIn 2.5s ease-in-out forwards; /* 使用动画效果渐变显示 */
+  transition: transform 0.3s ease;
+  transform-origin: bottom left;
+}
+.wenxintishi:hover {
+  transform: scale(1.01); /* 悬停时放大到原尺寸的 1.2 倍 */
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* 动画起始状态 */
+  }
+  to {
+    opacity: 1; /* 动画结束状态 */
+  }
+}
+
+.hero-inner overlay{
+  background-image: url("img\v2-7e61e4d68267680278e822c8005acbd3_r.jpg");
+  background-size: cover; /* 背景图片自适应屏幕大小 */
+  background-repeat: no-repeat; /* 禁止背景图片重复 */
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 60%;
+}
+
+.fawulianjie{
+  font-size: 12px;
+  color:gray;
+  line-height: 18px;
+  
+}
+
+.fawulianjie:hover{
+  color:blue
+}
+
+#lll{
+  position: absolute;
+  top:20%;
+  left: 30%;
+}
+
+.reci{
+  height: 700px;
+  
+}
+
+.jinrireci{
+  height: 700px;
+  width: 700px;
+
+}
+
+.caonima{
+  
+  margin-top: 20px;
+  height:500px;
+}
+
+.caonima2{
+  display: flex;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.caonima3{
+  width:700px;
+  height: 400px;
+  margin-left: 100px;
+  margin-right: 100px;
+  opacity: 0; /* 初始设置为透明 */
+  animation: fadeIn 3s ease-in-out forwards; /* 使用动画效果渐变显示 */
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+  transform-origin: bottom left;
+}
+.caonima3:hover {
+  transform: scale(1.05); /* 悬停时放大到原尺寸的 1.2 倍 */
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* 动画起始状态 */
+  }
+  to {
+    opacity: 1; /* 动画结束状态 */
+  }
+}
+
+
+.caonima4{
+  text-align: center;
+}
+
+.eee{
+  font-size: 20px;
+  
+}

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="碧桂园" content="碧桂园" />
+    <title>碧桂园</title>
+    <script src="js\echarts.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="css\custom.css" />
+    <style>
+         body{
+            background-color:#041e58;
+
+         }
+
+        .box{
+            background-color: white;
+           display: flex; 
+           height: 75px;
+           color: #041e58;
+           
+           margin-bottom: 35px;
+           
+           
+        }
+
+        #mingzi{
+            color: black;
+            font-size: 25px;
+            font-family: "微软雅黑 Light";
+            display: flex;
+            align-items: center;
+            position: absolute;
+            right: 0;
+            letter-spacing: 3px;
+            top:2%
+        }
+
+        #biaoti{
+            color: #0E94DC;
+            font-size: 65px;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            top: 4%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            letter-spacing: 3px;
+        }
+
+        .zhuti{
+            
+            height:2400px;
+            
+            
+        }
+
+        .shuju{
+            background-color: white;
+            height: 800px; 
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 20px;
+            border-radius: 2ch;
+            border: 2px,dashed,gray;
+            
+        }
+
+        .shuju2{
+            background-color: white;
+            height: 800px; 
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 20px;
+            display: flex;
+            border-radius: 2ch;
+            border: 2px,dashed,gray;
+        }
+        .zhuyaofaburen{
+            flex:45;
+
+        }
+        .qingganqushi{
+            flex:55;
+        }
+
+
+    </style>
+
+    <body>
+      <header>
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <div class="nav-inner">
+    <div class="box">
+        <div class="nav-inner">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img\屏幕截图 2024-03-13 090630.png"  alt="Logo"   >
+                     
+                  
+                </a>
+            </nav>
+        </div>
+        
+
+        <h1 id="mingzi">首页->感时势->碧桂园</h1>
+
+    </div>
+        </div>
+          </div>
+        </div>
+  </header>
+    <div class="zhuti">
+        <div class="shuju">
+        
+            <div class="zuoshangbiaoti">
+                <h2>数据对比</h2>
+            </div>
+
+            <div class="shujuduibi">
+                <div class="guanzhudu">
+                    <div class="xihe">
+                        <p class="xt">关注度
+                            <img class="jiantou" src="img\R (1).png" width="50px" height="50px"  >
+                        </p>
+                    </div>
+                    <div class="xihe">
+                        <p class="xt">今日数据量
+                            <img class="jiantou" src="img\R (1).png" width="50px" height="50px"  >
+                        </p>
+                    
+                    </div>
+
+                
+
+                </div>
+               
+
+            </div>
+
+            <div class="zuoshangbiaoti">
+                <h2>发布趋势</h2>
+            </div>
+            
+            <div id="fabuqushi">
+            <script type="text/javascript">
+
+                let a="nima"
+                console.log(a)
+
+               
+
+var chartDom = document.getElementById('fabuqushi');
+var myChart = echarts.init(chartDom, null, {
+    width: 1450,
+    height: 500
+  });
+var option;
+
+option = {
+ 
+  tooltip: {
+    trigger: 'axis'
+  },
+  legend: {
+    data: ['关注度']
+  },
+  grid: {
+    left: '3%',
+    right: '4%',
+    bottom: '3%',
+    containLabel: true
+  },
+  toolbox: {
+    feature: {
+      saveAsImage: {}
+    }
+  },
+  xAxis: {
+    type: 'category',
+    boundaryGap: false,
+    data: ['2.23~2.25', '2.26~2.28', '2.29~3.2', '3.3~3.5', '3.6~3.8', '3.9~3.11', '3.12~3.14','3.15~3.17','3.18~3.20','3.21~3.23']
+  },
+  yAxis: {
+    type: 'value'
+  },
+  series: [
+    {
+      name: '关注度',
+      type: 'line',
+      stack: 'Total',
+      data: [8, 4751, 205, 153, 104, 6, 160, 0, 2, 0]
+    },
+    
+  ]
+};
+
+option && myChart.setOption(option);
+
+                                        
+                
+
+
+
+            </script>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="shuju2">
+
+            <div class="zhuyaofaburen">
+                <div class="zuoshangbiaoti">
+                    <h2>主要发布人</h2>
+                </div>
+                <div class="faburen" >
+                  <ul>
+                   <li class="up"><img src="img\008bxkUsly8hcqzw7shdij30r50r5q5y.jpg" alt="lisa爱桃桃" class="fbr">lisa爱桃桃 <p class="fans">粉丝数:1.5万</p></li> 
+                   <li class="up"><img src="img\006IW9Joly8hlv9bshem5j30e80e8glk.jpg" alt="lisa爱桃桃" class="fbr">A股中短线大师<p class="fans">粉丝数:27.3万</p></li>
+                   <li class="up"><img src="img\006pQLBily8hjuepl3w6xj30u00u0whl.jpg" alt="lisa爱桃桃" class="fbr">芸姐z<p class="fans">粉丝数:16.3万</p></li>
+                   <li class="up"><img src="img\003kHDi3ly8hfu4whe59fj60go0gogml02.jpg" alt="lisa爱桃桃" class="fbr">会星座的兔子<p class="fans">粉丝数:1603.7万</p></li>
+                 
+                  </ul>
+                  
+
+                </div>
+                <div class="zuoshangbiaoti">
+                  <h2>情感指数</h2>
+
+                </div>
+                <div id="qingganindex">
+                 <script>
+                  var chartDom = document.getElementById('qingganindex');
+var myChart = echarts.init(chartDom,null,{width:600,height:400});
+var option;
+
+option = {
+  xAxis: {
+    type: 'category',
+    data: ['2.23~2.25', '2.26~2.28', '2.29~3.2', '3.3~3.5', '3.6~3.8', '3.9~3.11', '3.12~3.14','3.15~3.17','3.18~3.20','3.21~3.23']
+  },
+  yAxis: {
+    type: 'value'
+  },
+  series: [
+    {
+      data: [0.4, 0.29, 0.39, 0.41, 0.33, 0.46, 0.37, 0.0, 0.31, 0.0]
+,
+      type: 'line'
+    }
+  ]
+};
+
+option && myChart.setOption(option);
+                 </script> 
+
+
+                </div>
+
+            </div>
+           
+            <div class="qingganqushi">
+                <div class="zuoshangbiaoti">
+                    <h2>情感占比</h2>
+                </div>
+                <div id="qingganqushitu">
+                    <script>
+                    
+
+var chartDom = document.getElementById('qingganqushitu');
+var myChart = echarts.init(chartDom,null, {
+    width: 800,
+    height: 700
+  });
+var option;
+
+// There should not be negative values in rawData
+const rawData = [
+  [0,56,0,4,0,2,1,0,1,0],
+  [2,29,2,5,2,0,4,0,2,0],
+  [0,3,0,1,0,1,0,0,0,0]
+  
+];
+const totalData = [];
+for (let i = 0; i < rawData[0].length; ++i) {
+  let sum = 0;
+  for (let j = 0; j < rawData.length; ++j) {
+    sum += rawData[j][i];
+  }
+  totalData.push(sum);
+}
+const grid = {
+  left: 100,
+  right: 100,
+  top: 50,
+  bottom: 50
+};
+const series = [
+  '消极',
+  '中立',
+  '积极',
+  
+].map((name, sid) => {
+  return {
+    name,
+    type: 'bar',
+    stack: 'total',
+    barWidth: '60%',
+    yAxisIndex:0,
+    label: {
+      show: true,
+      formatter: (params) => Math.round(params.value * 1000) / 10 + '%'
+    },
+    data: rawData[sid].map((d, did) =>
+      totalData[did] <= 0 ? 0 : d / totalData[did]
+    )
+  };
+});
+
+option = {
+  legend: {
+    selectedMode: false,
+    
+  },
+  grid,
+  yAxis:[ {
+    type: 'value',
+    name:'占比'
+  },
+  
+],
+  xAxis: {
+
+    type: 'category',
+    data: ['2.23~2.25', '2.26~2.28', '2.29~3.2', '3.3~3.5', '3.6~3.8', '3.9~3.11', '3.12~3.14','3.15~3.17','3.18~3.20','3.21~3.23']
+  },
+  series
+};
+
+option && myChart.setOption(option);
+
+                    </script>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="shuju">
+            <div class="zuoshangbiaoti">
+                <h2>今日热词</h2>
+            </div>
+            <div class="reci">
+              <img src="img\未命名设计 (2).jpg" class="jinrireci">
+
+            </div>
+
+
+        </div>
+
+        
+    </div>
+    
+    
+
+    <footer class="footer style2">
+        <!-- Start Middle Top -->
+          <!-- Start Middle Top -->
+          <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="f-about single-footer">
+                            <div class="logo">
+                                <img src="img\屏幕截图 2024-03-13 090630.png"  alt="Logo"   ></a>
+                            </div>
+                            
+                            <div class="footer-social">
+                                <ul>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-facebook-original"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-google"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- End Single Widget -->
+                    
+                    
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-12" id="lll">
+                        <!-- Single Widget -->
+                        <div class="f-about single-footer">
+                            
+                            <a class="fawulianjie" href="img\法律声明.docx">一、本网站的内容由礁石科技有限公司提供，受中国知识产权法及相关法律保护。 除法律另有规定或者礁石科技有限公司与有关当事人另有约定外，本网站提供的所有内容（包括但不限于市场数据、风险分析等）、文本、图片、设计、标识以及相关软件程序的知识产权均归属礁石科技有限公司，依法受法律保护。</a>
+                            <a class="fawulianjie" href="img\法律声明.docx">二、任何机构或者个人使用本网站，均应遵守中国有关法律与本声明，不得破坏本网站运行安全，不得利用本网站进行任何违法活动，不得损害礁石科技有限公司的合法权益。</a>
+                            <a class="fawulianjie" href="img\法律声明.docx">三、在遵守中国法律与本声明的前提下，任何机构或者个人可基于非商业目的浏览、下载本网站内容。 未经礁石科技有限公司书面授权，任何机构或者个人不得以牟利为目的使用本网站的任何内容，此种使用包括但不限于转载、复制、散布、修改、销售、出版、演示、传播、通过硬拷贝或电子抓取系统获取网站信息或以其它任何形式获取、散发信息并从中牟利，该类使用行为视为侵权。</a>
+
+                        </div>
+                        <!-- End Single Widget -->
+                    
+                    
+                    </div>
+                    
+                    
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Middle -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="left">
+                              <div class="button">
+                                <a href="wankehistory.html" class="btn1">前往听历史</a>
+                                <a href="course-now.html" class="btn1">回到主页</a>
+                                <a href="wankefuture.html" class="btn1">前往看未来</a>
+
+                            </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Middle -->
+    </footer>
+    <!--/ End Footer Area -->
+
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top btn-hover">
+        <i class="lni lni-chevron-up"></i>
+    </a>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/count-up.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+    
+
+</html>
